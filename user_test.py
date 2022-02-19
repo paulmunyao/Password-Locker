@@ -22,4 +22,4 @@ def test__init(self):
     test__init__ test case to test if the object is initialized properly
     '''
 
-    self.assertEqual (self.new_user first_name "Paul")
+    self.assertEqual(self.new_user.first_name, "Paul")
