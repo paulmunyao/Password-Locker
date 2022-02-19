@@ -18,5 +18,5 @@ def setUp(self):
 
 def test__init(self):
     '''
-
+    test__init__ test case to test if the object is initialized properly
     '''
