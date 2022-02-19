@@ -9,8 +9,12 @@ class UserTest(unittest.TestCase):
         unitest.Testcase: Testcase that helps in creating test cases for class User.
     '''
 
+
 def setUp(self):
-  '''
-  Set up method to run before each test case
-  '''
-  self.user = User("Paul","Munyao","!@123")
+    '''
+    Set up method to run before each test case
+    '''
+    self.user = User("Paul", "Munyao", "!@123")
+
+def test__init(self):
+    
