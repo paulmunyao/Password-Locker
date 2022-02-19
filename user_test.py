@@ -11,5 +11,5 @@ class UserTest(unittest.TestCase):
 
 def setUp(self):
   '''
-
+  Set up method to run before each test case
   '''
