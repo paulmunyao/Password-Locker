@@ -13,3 +13,4 @@ def setUp(self):
   '''
   Set up method to run before each test case
   '''
+  self.user = User("Paul","Munyao","!@123")
