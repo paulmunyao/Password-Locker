@@ -8,3 +8,8 @@ class UserTest(unittest.TestCase):
     Args:
         unitest.Testcase: Testcase that helps in creating test cases for class User.
     '''
+
+def setUp(self):
+  '''
+
+  '''

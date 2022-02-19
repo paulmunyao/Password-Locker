@@ -12,6 +12,8 @@ def __init__(self, first_name, last_name, password):
          last_name : last name of the user
          passord : password of the user
     '''
+
+    
     self.first_name = first_name
     self.last_name = last_name
     self.password = password
