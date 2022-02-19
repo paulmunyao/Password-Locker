@@ -23,3 +23,5 @@ def test__init(self):
     '''
 
     self.assertEqual(self.new_user.first_name, "Paul")
+    self.assertEqual(self.new_user.last_name, "Munyao")
+    self.assertEqual(self.new_user.first_name, "!@123")
