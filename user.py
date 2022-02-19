@@ -3,7 +3,8 @@ class User:
     Class that generates new instances of User
     '''
 
-def __init__(self,first_name,last_name,password):
+
+def __init__(self, first_name, last_name, password):
     '''
      __init__method that helps define properties for our objects.
      Args:
@@ -11,3 +12,6 @@ def __init__(self,first_name,last_name,password):
          last_name : last name of the user
          passord : password of the user
     '''
+    self.first_name = first_name
+    self.last_name = last_name
+    self.password = password
