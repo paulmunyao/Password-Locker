@@ -17,4 +17,6 @@ def setUp(self):
     self.user = User("Paul", "Munyao", "!@123")
 
 def test__init(self):
-    
+    '''
+
+    '''
