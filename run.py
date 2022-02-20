@@ -48,3 +48,4 @@ def main():
 
     while True:
         print("Use these short codes :cu - create a new user, du - display user, fu - find user, ex - exit user list")
+        shortcode = input().lower()
