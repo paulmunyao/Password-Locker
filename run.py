@@ -6,10 +6,17 @@ confirm_username = input("Enter user name: ")
 confirm_password = input("Enter password: ")
 
 if username == confirm_username:
-    print("Kindly enter your  correct username.")
+    print("Welcome.")
 
-elif confirm_password == confirm_password:
-    print("Kindly enter your correct password.")
+else:
+     print("Try again")
+
+
+if password == confirm_password:
+        print("Welcome.")
+
+else:
+        print("Kindly enter your correct password")
 # user = getpass.getpass()
 # while True:
 #     password = getpass.getpass("")
