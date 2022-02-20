@@ -25,6 +25,9 @@ class UserTest(unittest.TestCase):
         self.assertEqual(self.new_user.first_name, "123")
 
     def test__save_user(self):
+        '''
+
+        '''
 
 
 if __name__ == "__main__":
