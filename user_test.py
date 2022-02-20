@@ -26,7 +26,7 @@ class UserTest(unittest.TestCase):
 
     def test__save_user(self):
         '''
-
+        test to see if the user is saved
         '''
 
 
