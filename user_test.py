@@ -10,21 +10,22 @@ class UserTest(unittest.TestCase):
     '''
 
 
-def setUp(self):
-    '''
-    Set up method to run before each test case
-    '''
-    self.new_user = User("Paul", "Munyao", "!@123")
+    def setUp(self):
+        '''
+        Set up method to run before each test case
+        '''
+        self.new_user = User("Paul", "Munyao", "!@123")
 
 
-def test__init(self):
-    '''
-    test__init__ test case to test if the object is initialized properly
-    '''
+    def test__init(self):
+        '''
+        test__init__ test case to test if the object is initialized properly
+        '''
 
-    self.assertEqual(self.new_user.first_name, "Paul")
-    self.assertEqual(self.new_user.last_name, "Munyao")
-    self.assertEqual(self.new_user.first_name, "!@123")
+        self.assertEqual(self.new_user.first_name, "Paul")
+        self.assertEqual(self.new_user.last_name, "Munyao")
+        self.assertEqual(self.new_user.first_name, "!@123")
+
 
 if __name__ == '__main__':
     unittest.main()
