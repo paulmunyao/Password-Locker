@@ -9,13 +9,11 @@ class UserTest(unittest.TestCase):
         unitest.Testcase: Testcase that helps in creating test cases for class User.
     '''
 
-
     def setUp(self):
         '''
         Set up method to run before each test case
         '''
-        self.new_user = User("Paul", "Munyao", "!@123")
-
+        self.new_user = User("Paul", "Munda", "123")
 
     def test__init(self):
         '''
@@ -23,8 +21,8 @@ class UserTest(unittest.TestCase):
         '''
 
         self.assertEqual(self.new_user.first_name, "Paul")
-        self.assertEqual(self.new_user.last_name, "Munyao")
-        self.assertEqual(self.new_user.first_name, "!@123")
+        self.assertEqual(self.new_user.last_name, "Munda")
+        self.assertEqual(self.new_user.first_name, "123")
 
 
 if __name__ == '__main__':

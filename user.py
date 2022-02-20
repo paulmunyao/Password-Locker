@@ -3,6 +3,8 @@ class User:
     Class that generates new instances of User
     '''
 
+    User_List =[]
+
 
 def __init__(self, first_name, last_name, password):
     '''
