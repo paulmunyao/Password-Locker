@@ -5,7 +5,7 @@ password = input("Enter password: ")
 confirm_username = input("Enter user name: ")
 confirm_password = input("Enter password: ")
 
-if username == password:
+if username == confirm_username:
     print("Karibu")
 
 else:
