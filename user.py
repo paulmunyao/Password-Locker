@@ -16,9 +16,9 @@ def __init__(self, first_name, last_name, password):
     '''
 
     def save_user(self):
-             '''
-
-             '''
+        '''
+        save_user method saves the user object into the database/user_list
+        '''
 
     self.first_name = first_name
     self.last_name = last_name
