@@ -12,8 +12,7 @@ def __init__(self, user_name, password):
     '''
      __init__method that helps define properties for our objects.
      Args:
-         first_name: first name of the user
-         last_name : last name of the user
+         user_name: user name
          passord : password of the user
     '''
 
