@@ -1,6 +1,6 @@
 import getpass
 
-firstname = input("Enter first name: ")
+username = input("Enter user name: ")
 lastname = input("Enter last name: ")
 password = input("Enter password: ")
 
