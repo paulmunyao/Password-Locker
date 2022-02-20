@@ -26,3 +26,8 @@ def check_existing_user(username):
     '''
     Function to check if the user exists by using their username
     '''
+
+def display_users():
+        '''
+        Function to display the users
+        '''
