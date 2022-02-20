@@ -17,7 +17,7 @@ if password == confirm_password:
         print("Welcome.")
 
 else:
-        print("Kindly enter your correct password")
+        print("Password doesn't match")
 # user = getpass.getpass()
 # while True:
 #     password = getpass.getpass("")
