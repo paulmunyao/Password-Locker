@@ -38,4 +38,7 @@ def main():
 
     print(f"Hello {user_name}. What do you want to do ?")
     print("\n")
+
+    while True:
+        
             
