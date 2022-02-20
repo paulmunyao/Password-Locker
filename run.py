@@ -5,6 +5,9 @@ password = input("Enter password: ")
 confirm_username = input("Enter user name: ")
 confirm_password = input("Enter password: ")
 
+if username == confirm_username or password == confirm_password:
+    print("User name and password does not match")
+
 if username == confirm_username:
     print("Welcome.")
 
