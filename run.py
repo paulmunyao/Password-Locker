@@ -8,8 +8,8 @@ confirm_password = input("Enter password: ")
 if username == confirm_username:
     print("Kindly enter your  correct username.")
 
-else:
-    print("Try again")
+elif confirm_password == confirm_password:
+    # print("Kindly enter your correct password.")
 # user = getpass.getpass()
 # while True:
 #     password = getpass.getpass("")
