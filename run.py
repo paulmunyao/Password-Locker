@@ -1,5 +1,6 @@
 from user import User
 
+
 def create_user(username, password):
     '''
     function to create a new user
@@ -7,30 +8,36 @@ def create_user(username, password):
     new_user = User(username, password)
     return new_user
 
+
 def save_users(user):
     '''
     function to save the users
     '''
+
 
 def delete_user(user):
     '''
     Function to delete the user
     '''
 
+
 def find_user(username):
     '''
     Function to find the user by their name
     '''
+
 
 def check_existing_user(username):
     '''
     Function to check if the user exists by using their username
     '''
 
+
 def display_users():
-        '''
-        Function to display the users
-        '''
+    '''
+    Function to display the users
+    '''
+
 
 def main():
     print("Hello welcome.What is your name ?")
@@ -40,5 +47,4 @@ def main():
     print("\n")
 
     while True:
-        
-            
+        print("Use these short codes :cu - create a new user, du - display user, fu - find user, ex - exit user list")
