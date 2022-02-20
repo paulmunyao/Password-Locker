@@ -2,7 +2,7 @@ import unittest
 from user import User
 
 
-class UserTest(unittest.TestCase):
+class TestUser(unittest.TestCase):
     '''
     Test that defines test cases for the User class
     Args:
@@ -15,7 +15,7 @@ class UserTest(unittest.TestCase):
         '''
         self.new_user = User("Paul", "Munda", "123")
 
-    def test__init(self):
+    def test__init__(self):
         '''
         test__init__ test case to test if the object is initialized properly
         '''
