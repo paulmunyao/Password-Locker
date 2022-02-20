@@ -31,3 +31,7 @@ def display_users():
         '''
         Function to display the users
         '''
+
+def main():
+    print("Hello welcome.What is your name ?")
+            
