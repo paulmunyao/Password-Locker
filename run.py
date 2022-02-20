@@ -1,5 +1,6 @@
 from user import User
 
+def create_user(username, password):
 
 # username = input("Enter user name: ")
 # password = input("Enter password: ")
