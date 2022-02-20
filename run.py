@@ -37,4 +37,5 @@ def main():
     user_name = input()
 
     print(f"Hello {user_name}. What do you want to do ?")
+    print("\n")
             
