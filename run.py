@@ -21,3 +21,8 @@ def find_user(username):
     '''
     Function to find the user by their name
     '''
+
+def check_existing_user(username):
+    '''
+    Function to check if the user exists by using their username
+    '''
