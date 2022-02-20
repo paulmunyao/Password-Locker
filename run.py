@@ -1,1 +1,1 @@
-# firstname = input("Enter first name: ")
+firstname = input("Enter first name: ")
