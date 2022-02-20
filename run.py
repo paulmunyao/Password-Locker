@@ -11,3 +11,8 @@ def save_users(user):
     '''
     function to save the users
     '''
+
+def delete_user(user):
+    '''
+    Function to dlete the user
+    '''
