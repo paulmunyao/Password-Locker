@@ -1,23 +1,24 @@
-import getpass
-
-username = input("Enter user name: ")
-password = input("Enter password: ")
-confirm_username = input("Enter user name: ")
-confirm_password = input("Enter password: ")
+from user import User
 
 
-if username == confirm_username:
-    print("Welcome.")
+# username = input("Enter user name: ")
+# password = input("Enter password: ")
+# confirm_username = input("Enter user name: ")
+# confirm_password = input("Enter password: ")
 
-else:
-     print("Username doesn't match")
+
+# if username == confirm_username:
+#     print("Welcome.")
+
+# else:
+#      print("Username doesn't match")
 
 
-if password == confirm_password:
-        print("Welcome.")
+# if password == confirm_password:
+#         print("Welcome.")
 
-else:
-        print("Password doesn't match")
+# else:
+#         print("Password doesn't match")
 # user = getpass.getpass()
 # while True:
 #     password = getpass.getpass("")
