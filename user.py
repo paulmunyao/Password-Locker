@@ -6,8 +6,8 @@ class User:
 user_list = []
 
 def __init__(self, user_name, password):
-    self.first_name = first_name
-    self.last_name = last_name
+   
+    self.user_name = user_name
     self.password = password
     '''
      __init__method that helps define properties for our objects.
