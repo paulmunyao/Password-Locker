@@ -9,7 +9,7 @@ if username == confirm_username:
     print("Kindly enter your  correct username.")
 
 elif confirm_password == confirm_password:
-    # print("Kindly enter your correct password.")
+    print("Kindly enter your correct password.")
 # user = getpass.getpass()
 # while True:
 #     password = getpass.getpass("")
