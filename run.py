@@ -89,3 +89,6 @@ def main():
 
             else:
                 print("User does not exist")
+
+        elif shortcode == "ex":
+            print("Thank you for your time")
