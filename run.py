@@ -22,6 +22,7 @@ def delete_user(user):
     '''
     Function to delete the user
     '''
+    user.delete_user()
 
 
 def find_user(username):
