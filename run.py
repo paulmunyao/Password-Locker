@@ -55,8 +55,12 @@ def main():
             print("Create a new user")
             print("")
 
-            print("Create your password ")
+            print("Enter your user name ")
+            p_name = input()
+
+            print("Enter your password ")
             p_password = input()
 
             save_users(create_user(p_password))
             print("\n")
+            print(f"New user {}")
