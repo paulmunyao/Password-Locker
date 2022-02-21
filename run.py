@@ -59,3 +59,4 @@ def main():
             p_password = input()
 
             save_users(create_user(p_password))
+            print("\n")
