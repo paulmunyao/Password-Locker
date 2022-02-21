@@ -36,6 +36,7 @@ def check_existing_user(username):
     '''
     Function to check if the user exists by using their username
     '''
+    return User.user_exists(username)
 
 
 def display_users():
