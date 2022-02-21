@@ -99,7 +99,12 @@ class TestUser(unittest.TestCase):
     def user_exists(cls,username):
         '''
         Method that checks if a username exists in the user list
+        Args:
+            username: The name of the user to search if it exists
+        Returns:
+               Boolean: True or flase depending if the contact exists 
         '''
+        
 
 
 
