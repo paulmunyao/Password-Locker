@@ -63,4 +63,4 @@ def main():
 
             save_users(create_user(p_name, p_password))
             print("\n")
-            print(f"New user {}")
+            print(f"New user {p_name} {p_password} created")
