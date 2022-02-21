@@ -1,6 +1,7 @@
 from user import User
 
 
+
 def create_user(username, password):
     '''
     function to create a new user
@@ -49,3 +50,7 @@ def main():
     while True:
         print("Use these short codes :cu - create a new user, du - display user, fu - find user, ex - exit user list")
         shortcode = input().lower()
+
+        if shortcode == "cu":
+            print("Create a new user")
+            print()

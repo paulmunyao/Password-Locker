@@ -13,21 +13,30 @@ class TestUser(unittest.TestCase):
         '''
         Set up method to run before each test case
         '''
-        self.new_user = User("Paul Munyao", "123")
+        self.new_user = User("Paul", "123")
 
     def test__init__(self):
         '''
         test__init__ test case to test if the object is initialized properly
         '''
 
-        self.assertEqual(self.new_user.user_name, "Paul Munyao")
-        self.assertEqual(self.new_user.first_name, "123")
+        self.assertEqual(self.new_user.user_name, "Paul")
+        self.assertEqual(self.new_user.password, "123")
 
     def test__save_user(self):
         '''
         test to see if the user is saved
         '''
+        self.new_user.save_user()
+        self.assertEqual(len(User.user_list), 1)
 
+    def test__delete_user(self):
+        '''
+        
+        '''
+        self.new_user.save_user()
+        
+        
 
 if __name__ == "__main__":
     unittest.main()
