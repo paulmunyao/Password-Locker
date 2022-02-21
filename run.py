@@ -1,4 +1,5 @@
 from user import User
+from credentials import credentials
 
 
 def create_user(username, password):
@@ -13,6 +14,8 @@ def save_users(user):
     '''
     function to save the users
     '''
+    user.save_user() 
+
 
 
 def delete_user(user):
@@ -37,6 +40,7 @@ def display_users():
     '''
     Function to display the users
     '''
+   
 
 
 def main():
@@ -96,5 +100,6 @@ def main():
         else:
             print("Kindly use the short code")
 
-            if __name__ == "__main__":
-                main()
+
+if __name__ == "__main__":
+    main()
