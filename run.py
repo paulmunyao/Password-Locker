@@ -61,6 +61,6 @@ def main():
             print("Enter your password ")
             p_password = input()
 
-            save_users(create_user(p_password))
+            save_users(create_user(p_name, p_password))
             print("\n")
             print(f"New user {}")
