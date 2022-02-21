@@ -66,4 +66,7 @@ def main():
             print(f"New user {p_name} {p_password} created")
             print("\n")
 
-            elif shortcode == "du":
+        elif shortcode == "du":
+            if display_users():
+                print("Here is a list of all your users")
+                print("\n")
