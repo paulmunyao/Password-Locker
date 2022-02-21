@@ -79,3 +79,6 @@ def main():
                     print("\n")
                     print("No users found")
                     print("\n")
+
+        elif shortcode == "fu":
+            print("Enter the user you want to search for")
