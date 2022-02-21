@@ -34,6 +34,12 @@ class TestUser(unittest.TestCase):
         '''
         tear down method to run after each test case
         '''
+        User.user_list = []
+
+    def test_save_multiple_user(self):
+        '''
+        Test to check if we can save multiple users
+        '''    
 
 
 
