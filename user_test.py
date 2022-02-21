@@ -65,6 +65,16 @@ class TestUser(unittest.TestCase):
         test_user = User("Test", "user")
         test_user.save_user()
 
+        found_user = User.find_username("Test")
+
+        self.assertEqual(found_user, test_user)
+
+    @classmethod
+    def find_username(cls,username):
+        '''
+        Method that takes in a username and returns a name that matches that username. 
+        '''
+
 
 if __name__ == "__main__":
     unittest.main()
