@@ -124,17 +124,5 @@ class TestUser(unittest.TestCase):
         return cls.user_list
 
     
-
-
-
-
-
-
-
-
-
-
-
-
 if __name__ == "__main__":
     unittest.main()
