@@ -74,3 +74,8 @@ def main():
                 for user in display_users():
                     print(f"{user.user_name} {user.password}")
                     print("\n")
+
+                else:
+                    print("\n")
+                    print("No users found")
+                    print("\n")
