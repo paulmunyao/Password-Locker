@@ -95,6 +95,12 @@ class TestUser(unittest.TestCase):
 
             self.assertTrue(user_exists)
 
+    @classmethod
+    def user_exists(cls,username):
+        '''
+        Method that checks if a username exists in the user list
+        '''
+
 
 
 
