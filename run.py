@@ -65,3 +65,5 @@ def main():
             print("\n")
             print(f"New user {p_name} {p_password} created")
             print("\n")
+
+            elif shortcode == "du":
