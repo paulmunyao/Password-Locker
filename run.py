@@ -29,6 +29,7 @@ def find_user(username):
     '''
     Function to find the user by their name
     '''
+    return User.find_by_username
 
 
 def check_existing_user(username):
