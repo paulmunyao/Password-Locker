@@ -84,4 +84,4 @@ def main():
             print("Enter the user you want to search for")
             search_user = input()
             if check_existing_user(search_user):
-                
+                search_user = find_user(search_user)
