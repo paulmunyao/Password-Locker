@@ -62,10 +62,10 @@ class TestUser(unittest.TestCase):
         '''
 
         self.new_user.save_user()
-        test_user = User("Test", "user")
+        test_user = User("Test", "123")
         test_user.save_user()
 
-        found_user = User.find_username("Test")
+        found_user = User.find_username("Paul")
 
         self.assertEqual(found_user, test_user)
 
@@ -87,6 +87,13 @@ class TestUser(unittest.TestCase):
             '''
             Test to see if we can return a Boolean
             '''
+            self.new_user.save_user()
+            test_user = User("Test", "123")
+            test_user.save_user()
+
+            user_exists = User.user_exists("Paul")
+
+            self.assertTrue(user_exists)
 
 
 
