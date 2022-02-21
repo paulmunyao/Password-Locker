@@ -1,7 +1,5 @@
 # QuoteGenerator
-Github Search is simply a web application that let's you find another person's github profile and all their projects or repositories.
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
-
+Github Search is simply a web application that let's you store your password.
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
