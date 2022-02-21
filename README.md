@@ -2,18 +2,10 @@
 Github Search is simply a web application that let's you store your password.
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `python3`or the version of python that you use.
 
 ## Technology Used
-1)HTML <br>2)CSS <br>3)Bootstrap <br>4)JavaScript <br>5)Jquery <br>6)Typescript
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Python
 
 ## Running unit tests
 
