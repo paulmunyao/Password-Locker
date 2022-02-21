@@ -93,4 +93,5 @@ def main():
         elif shortcode == "ex":
             print("Thank you for your time")
             break
-        
+        else:
+            print("Kindly use the short code")
