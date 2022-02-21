@@ -1,7 +1,6 @@
 from user import User
 
 
-
 def create_user(username, password):
     '''
     function to create a new user
@@ -85,3 +84,5 @@ def main():
             search_user = input()
             if check_existing_user(search_user):
                 search_user = find_user(search_user)
+                print(f"{search_user.user_name}")
+                print("\n")
