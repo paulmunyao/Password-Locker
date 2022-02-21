@@ -82,3 +82,4 @@ def main():
 
         elif shortcode == "fu":
             print("Enter the user you want to search for")
+            search_user = input()
