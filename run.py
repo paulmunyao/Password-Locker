@@ -70,3 +70,7 @@ def main():
             if display_users():
                 print("Here is a list of all your users")
                 print("\n")
+
+                for user in display_users():
+                    print(f"{user.user_name} {user.password}")
+                    print("\n")
