@@ -30,6 +30,23 @@ class TestUser(unittest.TestCase):
         self.new_user.save_user()
         self.assertEqual(len(User.user_list), 1)
 
+    def tearDown(self):
+        '''
+        tear down method to run after each test case
+        '''
+
+
+
+
+
+
+
+
+
+
+
+
+
     def test__delete_user(self):
         '''
         test to see if the user is deleted
