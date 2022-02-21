@@ -86,3 +86,6 @@ def main():
                 search_user = find_user(search_user)
                 print(f"{search_user.user_name}")
                 print("\n")
+
+            else:
+                print("User does not exist")
