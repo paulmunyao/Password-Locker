@@ -69,24 +69,26 @@ class TestUser(unittest.TestCase):
 
         self.assertEqual(found_user, test_user)
 
-        @classmethod
-        def find_username(cls,username):
-            '''
-            Method that takes in a username and returns a name that matches that username. 
-            Args:
-                username: the username
-            Returns:
-                    Username of that person
-            '''
+    @classmethod
+    def find_username(cls,username):
+        '''
+        Method that takes in a username and returns a name that matches that username. 
+        Args:
+            username: the username
+        Returns:
+                Username of that person
+        '''
 
-            for user in cls.user_list:
-                if user.username == username:
-                    return user
+        for user in cls.user_list:
+            if user.username == username:
+                return user
 
-        def test_user_exists(self):
+    def test_user_exists(self):
             '''
             Test to see if we can return a Boolean
             '''
+
+
 
 
 
