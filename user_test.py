@@ -51,7 +51,10 @@ class TestUser(unittest.TestCase):
         '''
         self.new_user.save_user()
         test_user = User("Test","user")
-        self.assertEqual(User.user_list.remove(self))
+        test_user.save_user()
+
+        self.new_user.delete_user()
+        self.assertEqual(len(User.user_list), 1)
 
 
 if __name__ == "__main__":
