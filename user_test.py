@@ -104,6 +104,15 @@ class TestUser(unittest.TestCase):
         Returns:
                Boolean: True or flase depending if the contact exists 
         '''
+        for user in cls.user_list:
+            if user.username == username:
+                return True
+        return False
+
+    def test_display_all_users(self):
+        '''
+        Method that displays a list of all users saved
+        '''        
         
 
 
