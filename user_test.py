@@ -112,8 +112,14 @@ class TestUser(unittest.TestCase):
     def test_display_all_users(self):
         '''
         Method that displays a list of all users saved
-        '''        
-        
+        '''  
+        self.assertEqual(User.display_all_users(),User.user_list)
+
+        @classmethod      
+        def display_all_users(cls):
+            '''
+            method that returns the contact list
+            '''
 
 
 
