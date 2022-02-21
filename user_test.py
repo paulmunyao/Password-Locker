@@ -61,6 +61,10 @@ class TestUser(unittest.TestCase):
         Test to see if we can find user in the database
         '''
 
+        self.new_user.save_user()
+        test_user = User("Test", "user")
+        test_user.save_user()
+
 
 if __name__ == "__main__":
     unittest.main()
