@@ -53,4 +53,7 @@ def main():
 
         if shortcode == "cu":
             print("Create a new user")
-            print()
+            print("")
+
+            print("Creaye your password ")
+            p_user = input()
