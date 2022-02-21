@@ -43,6 +43,7 @@ def display_users():
     '''
     Function to display the users
     '''
+    return User.display_users()
    
 
 
